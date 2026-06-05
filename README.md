@@ -3,7 +3,7 @@
 <!-- HEADER BANNER -->
 <div align="center">
 
-<img src="./assets/header.svg" alt="Carlos Baptista - Data Analytics, Business Analysis, AI Integration" width="100%"/>
+<img src="./assets/header_4.svg" alt="Carlos Baptista - Data Analytics, Business Analysis, AI Integration" width="100%"/>
 
 <br>
 
