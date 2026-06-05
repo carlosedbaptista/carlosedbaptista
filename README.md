@@ -29,31 +29,35 @@
   <rect x="60" y="55" width="4" height="40" rx="2" fill="#2d5f8a" opacity="0.4"/>
   <rect x="60" y="55" width="20" height="4" rx="2" fill="#2d5f8a" opacity="0.4"/>
   <rect x="60" y="91" width="20" height="4" rx="2" fill="#2d5f8a" opacity="0.4"/>
-  <!-- Name -->
-  <text x="400" y="62" font-family="monospace" font-size="42" font-weight="bold" fill="#fff" text-anchor="middle" filter="url(#glow)">Carlos Baptista</text>
+  <!-- Name (isolated line) -->
+  <text x="400" y="72" font-family="monospace" font-size="48" font-weight="bold" fill="#fff" text-anchor="middle" filter="url(#glow)">Carlos Baptista</text>
   <!-- Typing cursor -->
-  <rect x="556" y="38" width="3" height="28" rx="1" fill="#1dd1a1">
+  <rect x="584" y="44" width="3" height="32" rx="1" fill="#1dd1a1">
     <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
   </rect>
   <!-- Decorative right bracket -->
   <rect x="736" y="55" width="4" height="40" rx="2" fill="#2d5f8a" opacity="0.4"/>
   <rect x="720" y="55" width="20" height="4" rx="2" fill="#2d5f8a" opacity="0.4"/>
   <rect x="720" y="91" width="20" height="4" rx="2" fill="#2d5f8a" opacity="0.4"/>
-  <!-- Subtitle -->
-  <text x="400" y="100" font-family="monospace" font-size="16" fill="#94a3b8" text-anchor="middle">Data Analytics • Business Analysis • AI Integration</text>
+  <!-- Separator line -->
+  <line x1="300" y1="92" x2="500" y2="92" stroke="#2d5f8a" stroke-width="1" opacity="0.5">
+    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3s" repeatCount="indefinite"/>
+  </line>
+  <!-- Subtitle (separate line) -->
+  <text x="400" y="116" font-family="monospace" font-size="15" fill="#94a3b8" text-anchor="middle">Data Analytics • Business Analysis • AI Integration</text>
   <!-- Status dots -->
-  <circle cx="324" cy="128" r="4" fill="#ff6b6b">
+  <circle cx="324" cy="140" r="4" fill="#ff6b6b">
     <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="344" cy="128" r="4" fill="#feca57">
+  <circle cx="344" cy="140" r="4" fill="#feca57">
     <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" begin="0.3s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="364" cy="128" r="4" fill="#1dd1a1">
+  <circle cx="364" cy="140" r="4" fill="#1dd1a1">
     <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" begin="0.6s" repeatCount="indefinite"/>
   </circle>
-  <text x="400" y="132" font-family="monospace" font-size="11" fill="#64748b" text-anchor="middle">Wallisellen, Zurich • Open to Opportunities</text>
+  <text x="400" y="144" font-family="monospace" font-size="11" fill="#64748b" text-anchor="middle">Wallisellen, Zurich • Open to Opportunities</text>
   <!-- Bottom accent bar -->
-  <rect x="250" y="144" width="300" height="2" rx="1" fill="#2d5f8a" opacity="0.3">
+  <rect x="250" y="148" width="300" height="2" rx="1" fill="#2d5f8a" opacity="0.3">
     <animate attributeName="width" values="300;350;300" dur="4s" repeatCount="indefinite"/>
     <animate attributeName="x" values="250;225;250" dur="4s" repeatCount="indefinite"/>
   </rect>
