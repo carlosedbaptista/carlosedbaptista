@@ -260,14 +260,6 @@ HAVING relevance > 0.8;
 </td>
 <td width="33%" align="center">
 
-#### 🎯 Next
-
-| Certification | Expected |
-|---------------|----------|
-| AWS Cloud Practitioner | 2026 Q3 |
-| TensorFlow Developer | 2026 Q4 |
-| Databricks Data Analyst | 2027 |
-
 </td>
 </tr>
 </table>
