@@ -1,67 +1,11 @@
 <div align="center">
 
 <!-- HEADER BANNER -->
-<svg viewBox="0 0 800 150" xmlns="http://www.w3.org/2000/svg" width="100%">
-  <defs>
-    <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#0a0f1e" />
-      <stop offset="30%" style="stop-color:#0f172a" />
-      <stop offset="70%" style="stop-color:#1e3a5f" />
-      <stop offset="100%" style="stop-color:#0a0f1e" />
-    </linearGradient>
-    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#ff6b6b" />
-      <stop offset="50%" style="stop-color:#7dd3c0" />
-      <stop offset="100%" style="stop-color:#1dd1a1" />
-    </linearGradient>
-    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
-      <feGaussianBlur stdDeviation="4" result="blur"/>
-      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
-    </filter>
-  </defs>
-  <!-- Background -->
-  <rect width="800" height="150" rx="16" fill="url(#bg)"/>
-  <!-- Top accent bar -->
-  <rect x="0" y="0" width="800" height="3" rx="1.5" fill="url(#accent)" opacity="0.8">
-    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
-  </rect>
-  <!-- Decorative left bracket -->
-  <rect x="60" y="55" width="4" height="40" rx="2" fill="#2d5f8a" opacity="0.4"/>
-  <rect x="60" y="55" width="20" height="4" rx="2" fill="#2d5f8a" opacity="0.4"/>
-  <rect x="60" y="91" width="20" height="4" rx="2" fill="#2d5f8a" opacity="0.4"/>
-  <!-- Name (isolated line) -->
-  <text x="400" y="72" font-family="monospace" font-size="48" font-weight="bold" fill="#fff" text-anchor="middle" filter="url(#glow)">Carlos Baptista</text>
-  <!-- Typing cursor -->
-  <rect x="584" y="44" width="3" height="32" rx="1" fill="#1dd1a1">
-    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
-  </rect>
-  <!-- Decorative right bracket -->
-  <rect x="736" y="55" width="4" height="40" rx="2" fill="#2d5f8a" opacity="0.4"/>
-  <rect x="720" y="55" width="20" height="4" rx="2" fill="#2d5f8a" opacity="0.4"/>
-  <rect x="720" y="91" width="20" height="4" rx="2" fill="#2d5f8a" opacity="0.4"/>
-  <!-- Separator line -->
-  <line x1="300" y1="92" x2="500" y2="92" stroke="#2d5f8a" stroke-width="1" opacity="0.5">
-    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="3s" repeatCount="indefinite"/>
-  </line>
-  <!-- Subtitle (separate line) -->
-  <text x="400" y="116" font-family="monospace" font-size="15" fill="#94a3b8" text-anchor="middle">Data Analytics • Business Analysis • AI Integration</text>
-  <!-- Status dots -->
-  <circle cx="324" cy="140" r="4" fill="#ff6b6b">
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="344" cy="140" r="4" fill="#feca57">
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" begin="0.3s" repeatCount="indefinite"/>
-  </circle>
-  <circle cx="364" cy="140" r="4" fill="#1dd1a1">
-    <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" begin="0.6s" repeatCount="indefinite"/>
-  </circle>
-  <text x="400" y="144" font-family="monospace" font-size="11" fill="#64748b" text-anchor="middle">Wallisellen, Zurich • Open to Opportunities</text>
-  <!-- Bottom accent bar -->
-  <rect x="250" y="148" width="300" height="2" rx="1" fill="#2d5f8a" opacity="0.3">
-    <animate attributeName="width" values="300;350;300" dur="4s" repeatCount="indefinite"/>
-    <animate attributeName="x" values="250;225;250" dur="4s" repeatCount="indefinite"/>
-  </rect>
-</svg>
+<div align="center">
+
+<img src="./assets/header.svg" alt="Carlos Baptista - Data Analytics, Business Analysis, AI Integration" width="100%"/>
+
+<br>
 
 <br>
 
@@ -130,7 +74,7 @@ After a foundation in business process analysis and internal solution developmen
 
 **Business Analysis**
 
-<img src="https://img.shields.io/badge/Process_Mapping-1e3a5f?style=for-the-badge&logo=diagrams.net&logoColor=white"/>
+<img src="https://img.shields.io/badge/Process_Mapping-1e3a5f?style=for-the-badge&logo=diagramsdotnet&logoColor=white"/>
 <img src="https://img.shields.io/badge/Stakeholder_Mgmt-2d5f8a?style=for-the-badge&logo=handshake&logoColor=white"/>
 <img src="https://img.shields.io/badge/BPMN-FF6D00?style=for-the-badge"/>
 <a href="https://www.atlassian.com/software/jira" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Jira-0052CC?style=for-the-badge&logo=jira&logoColor=white"/></a>
