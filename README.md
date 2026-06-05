@@ -1,29 +1,62 @@
 <div align="center">
 
 <!-- HEADER BANNER -->
-<svg viewBox="0 0 800 100" xmlns="http://www.w3.org/2000/svg" width="100%">
+<svg viewBox="0 0 800 150" xmlns="http://www.w3.org/2000/svg" width="100%">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="0%">
-      <stop offset="0%" style="stop-color:#0f172a" />
-      <stop offset="100%" style="stop-color:#1e3a5f" />
+      <stop offset="0%" style="stop-color:#0a0f1e" />
+      <stop offset="30%" style="stop-color:#0f172a" />
+      <stop offset="70%" style="stop-color:#1e3a5f" />
+      <stop offset="100%" style="stop-color:#0a0f1e" />
     </linearGradient>
-    <filter id="glow">
-      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
-      <feMerge><feMergeNode in="coloredBlur"/><feMergeNode in="SourceGraphic"/></feMerge>
+    <linearGradient id="accent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:#ff6b6b" />
+      <stop offset="50%" style="stop-color:#7dd3c0" />
+      <stop offset="100%" style="stop-color:#1dd1a1" />
+    </linearGradient>
+    <filter id="glow" x="-20%" y="-20%" width="140%" height="140%">
+      <feGaussianBlur stdDeviation="4" result="blur"/>
+      <feComposite in="SourceGraphic" in2="blur" operator="over"/>
     </filter>
   </defs>
-  <rect width="800" height="100" rx="12" fill="url(#bg)"/>
-  <text x="400" y="45" font-family="monospace" font-size="32" font-weight="bold" fill="#fff" text-anchor="middle" filter="url(#glow)">Carlos Baptista</text>
-  <text x="400" y="75" font-family="monospace" font-size="15" fill="#7dd3c0" text-anchor="middle">Data Analytics • Business Analysis • AI Integration</text>
-  <circle cx="30" cy="25" r="3" fill="#ff6b6b" opacity="0.7">
-    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" repeatCount="indefinite"/>
+  <!-- Background -->
+  <rect width="800" height="150" rx="16" fill="url(#bg)"/>
+  <!-- Top accent bar -->
+  <rect x="0" y="0" width="800" height="3" rx="1.5" fill="url(#accent)" opacity="0.8">
+    <animate attributeName="opacity" values="0.6;1;0.6" dur="3s" repeatCount="indefinite"/>
+  </rect>
+  <!-- Decorative left bracket -->
+  <rect x="60" y="55" width="4" height="40" rx="2" fill="#2d5f8a" opacity="0.4"/>
+  <rect x="60" y="55" width="20" height="4" rx="2" fill="#2d5f8a" opacity="0.4"/>
+  <rect x="60" y="91" width="20" height="4" rx="2" fill="#2d5f8a" opacity="0.4"/>
+  <!-- Name -->
+  <text x="400" y="62" font-family="monospace" font-size="42" font-weight="bold" fill="#fff" text-anchor="middle" filter="url(#glow)">Carlos Baptista</text>
+  <!-- Typing cursor -->
+  <rect x="556" y="38" width="3" height="28" rx="1" fill="#1dd1a1">
+    <animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/>
+  </rect>
+  <!-- Decorative right bracket -->
+  <rect x="736" y="55" width="4" height="40" rx="2" fill="#2d5f8a" opacity="0.4"/>
+  <rect x="720" y="55" width="20" height="4" rx="2" fill="#2d5f8a" opacity="0.4"/>
+  <rect x="720" y="91" width="20" height="4" rx="2" fill="#2d5f8a" opacity="0.4"/>
+  <!-- Subtitle -->
+  <text x="400" y="100" font-family="monospace" font-size="16" fill="#94a3b8" text-anchor="middle">Data Analytics • Business Analysis • AI Integration</text>
+  <!-- Status dots -->
+  <circle cx="324" cy="128" r="4" fill="#ff6b6b">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="48" cy="25" r="3" fill="#feca57" opacity="0.7">
-    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" begin="0.3s" repeatCount="indefinite"/>
+  <circle cx="344" cy="128" r="4" fill="#feca57">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" begin="0.3s" repeatCount="indefinite"/>
   </circle>
-  <circle cx="66" cy="25" r="3" fill="#1dd1a1" opacity="0.7">
-    <animate attributeName="opacity" values="0.5;1;0.5" dur="2s" begin="0.6s" repeatCount="indefinite"/>
+  <circle cx="364" cy="128" r="4" fill="#1dd1a1">
+    <animate attributeName="opacity" values="0.4;1;0.4" dur="2s" begin="0.6s" repeatCount="indefinite"/>
   </circle>
+  <text x="400" y="132" font-family="monospace" font-size="11" fill="#64748b" text-anchor="middle">Wallisellen, Zurich • Open to Opportunities</text>
+  <!-- Bottom accent bar -->
+  <rect x="250" y="144" width="300" height="2" rx="1" fill="#2d5f8a" opacity="0.3">
+    <animate attributeName="width" values="300;350;300" dur="4s" repeatCount="indefinite"/>
+    <animate attributeName="x" values="250;225;250" dur="4s" repeatCount="indefinite"/>
+  </rect>
 </svg>
 
 <br>
