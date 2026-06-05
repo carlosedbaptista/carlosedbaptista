@@ -10,7 +10,6 @@
 <br>
 
 <img src="https://img.shields.io/badge/Wallisellen-Zurich%2C%20Switzerland-1e3a5f?style=flat-square&logo=google-maps&logoColor=white&labelColor=0f172a" alt="Location"/>
-<img src="https://img.shields.io/badge/Status-Open%20to%20Opportunities-1dd1a1?style=flat-square&labelColor=0f172a" alt="Status"/>
 
 <br><br>
 
