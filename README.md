@@ -176,8 +176,8 @@ An automated job search and evaluation pipeline for Data and Business Analyst po
 | Target | Expected |
 |:---|:---:|
 | AWS Cloud Practitioner | 2026 Q3 |
-| TensorFlow Developer | 2026 Q4 |
-| Databricks Data Analyst | 2027 |
+| Claude Certified Architect - Foundations (CCA-F) | 2026 Q4 |
+| Databricks Data Analyst | 2026 Q4 |
 
 ---
 
@@ -187,19 +187,6 @@ An automated job search and evaluation pipeline for Data and Business Analyst po
 <a href="#" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/English-C1-2d5f8a?style=for-the-badge&labelColor=0f172a"/></a>
 <a href="#" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/Spanish-B2-1e3a5f?style=for-the-badge&labelColor=0f172a"/></a>
 <a href="#" target="_blank" rel="noopener noreferrer"><img src="https://img.shields.io/badge/German-A2_(learning)-7dd3c0?style=for-the-badge&labelColor=0f172a"/></a>
-
----
-
-## 📊 GitHub Stats
-
-<div align="center">
-  <a href="https://github.com/carlosedbaptista" target="_blank" rel="noopener noreferrer">
-    <img src="https://github-readme-stats.vercel.app/api?username=carlosedbaptista&show_icons=true&theme=github_dark&title_color=7dd3c0&text_color=c9d1d9&icon_color=1dd1a1&bg_color=0d1117&border_color=2d5f8a&border_radius=10&hide_title=false&include_all_commits=true&count_private=true" alt="GitHub Stats" height="165"/>
-  </a>
-  <a href="https://github.com/carlosedbaptista" target="_blank" rel="noopener noreferrer">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=carlosedbaptista&layout=compact&theme=github_dark&title_color=7dd3c0&text_color=c9d1d9&bg_color=0d1117&border_color=2d5f8a&border_radius=10&langs_count=8" alt="Top Languages" height="165"/>
-  </a>
-</div>
 
 ---
 
