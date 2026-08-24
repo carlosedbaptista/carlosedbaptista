@@ -2,7 +2,7 @@
 
 # Carlos Baptista
 
-**AI & Automation Developer** · Zurich area, Switzerland
+**AI Software Engineer Intern** · Zurich canton, Switzerland
 
 Building LLM-powered pipelines and automation, end to end, in production.
 
@@ -23,7 +23,7 @@ that work should never have been manual. That is what moved me into software.
 It is also why I am comfortable arriving in an unfamiliar domain and being
 useful quickly, and why I would rather find my own mistakes than defend them.
 
-Today I build production automation at **netzdenker**, a Swiss digital agency
+Today I build production automation at **netzdenker**, a Swiss-based digital agency
 serving the DACH market: LLM-powered pipelines with the Claude and Kimi APIs,
 data workflows, live dashboards from ad-platform data, and the company's
 infrastructure on Hetzner — every change shipped through GitHub Actions
@@ -38,14 +38,14 @@ platform engineering**, with ownership from day one.
 
 | Period | Role | What I did |
 |:---|:---|:---|
-| **06.2026 – now** | AI & Automation Developer Intern · netzdenker | Products from zero to production: LLM API integration, automation pipelines, cloud infrastructure, CI/CD |
+| **06.2026 – now** | AI Software Engineer Intern · netzdenker | Products from zero to production: LLM API integration, automation pipelines, cloud infrastructure, CI/CD |
 | **10.2025 – 04.2026** | Digital Marketing & Analytics Intern · netzdenker | Programmatic ad ops; rebuilt the campaign dashboard against live APIs — **+35% engagement in three months** |
 | **03.2023 – 12.2024** | Business Process & NetSuite Intern · Gestora de Inteligência de Crédito | Data-validation rules and process automation on Oracle NetSuite — **~40% less manual data entry** |
 | **04.2021 – 01.2023** | Administrative Support Intern · Criminal Registry, High Court of Rio de Janeiro | Digitised **4,000+ case files** into the electronic case-management system |
 
 **Education** · Postgraduate Specialisation in Data Science *(expected 10.2026)* ·
 Technologist Degree, Systems Analysis & Development *(2024)* ·
-540h Intensive IT Residency, BRISA/CIEDS
+IT Residency, BRISA/CIEDS *(2024)*
 
 ---
 
