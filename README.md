@@ -74,7 +74,7 @@ IT Residency, BRISA/CIEDS *(2024)*
 
 ---
 
-## [Job Hunt Pipeline](https://github.com/carlosedbaptista/job-hunt-pipeline)
+## [Job Hunt Pipeline](https://github.com/carlosedbaptista/job-hunt-pipeline) https://carlosedbaptista.github.io/job-hunt-pipeline/digests/dashboard.html
 
 An unattended pipeline that finds engineering roles in Zurich, scores them
 against my profile with an LLM, and writes a tailored CV and cover letter for
